@@ -1,6 +1,7 @@
 
 hugo new site -h
-hugo new site . --force
+## note, choose format = yaml going forwards, better than default toml
+hugo new site . --force --format yaml
 ##hugo new site quickstart
 ##cd quickstart
 ##git init
